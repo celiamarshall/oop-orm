@@ -162,7 +162,7 @@ describe('Theatre Model', function () {
     })
   })
 
-  xdescribe('BONUS: .valid', function () {
+  describe('BONUS: .valid', function () {
     it('should return true if the created theatre is valid', function () {
       const name = 'My New Name'
       const address = 'My New Address'
